@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
--  Solution URL: [Coding Bootcamp Testimonial Slider]()
--  Live Site URL: [Coding Bootcamp Testimonial Slider]()
+-  Solution URL: [Coding Bootcamp Testimonial Slider](https://github.com/Fahatmah/coding-bootcamp-testimonials-slider-master.git)
+-  Live Site URL: [Coding Bootcamp Testimonial Slider](https://coding-bootcamp-testimonial-frontend.netlify.app/)
 
 ### Built with
 
