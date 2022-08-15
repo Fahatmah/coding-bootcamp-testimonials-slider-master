@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon-32x32.png"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<main>
+			<section class="testimonial">
+				<div class="card">
+					<div class="slider">
+						<div class="group">
+							<div class="container">
+								<ul class="wrapper">
+									<li class="slide__item current--visible">
+										<img
+											src="assets/image-tanya.jpg"
+											alt="an image of a woman named Tanya"
+										/>
+									</li>
+									<li class="slide__item">
+										<img
+											src="assets/image-john.jpg"
+											alt="an image of a man name John"
+										/>
+									</li>
+								</ul>
+								<div class="button__slider">
+									<button
+										class="button prev"
+										aria-label="previous button"
+										id="prevBtn"
+									>
+										<img
+											src="assets/icon-prev.svg"
+											alt="previous button"
+										/>
+									</button>
+									<button
+										class="button next"
+										aria-label="next button"
+										id="nextBtn"
+									>
+										<img
+											src="assets/icon-next.svg"
+											alt="next button"
+										/>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="texts">
+						<ul class="texts__wrapper">
+							<li class="text__item current--visible">
+								<div class="paragraph">
+									<blockquote>
+										“ I’ve been interested in coding for a while but
+										never taken the jump, until now. I couldn’t
+										recommend this course enough. I’m now in the job
+										of my dreams and so excited about the future. ”
+									</blockquote>
+									<div class="profile-details">
+										<h1>Tanya Sinclair</h1>
+										<p>UX Engineer</p>
+									</div>
+								</div>
+							</li>
+							<li class="text__item">
+								<div class="paragraph">
+									<blockquote>
+										“ If you want to lay the best foundation possible
+										I’d recommend taking this course. The depth the
+										instructors go into is incredible. I now feel so
+										confident about starting up as a professional
+										developer. ”
+									</blockquote>
+									<div class="profile-details">
+										<h1>John Tarkpor</h1>
+										<p>Junior Front-end Developer</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+		<script src="testimonial_slide.js"></script>
+	</body>
+</html>
